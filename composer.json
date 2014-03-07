@@ -1,0 +1,23 @@
+{
+	"name": "buzzfishmedia/supres-theme",
+	"description": "Child Theme for Superior Restoration",
+	"type": "wordpress-theme",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Frank McCoy",
+			"email": "frank@buzzfishmedia.com",
+			"homepage": "https://github.com/fmccoy",
+			"role": "Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://repos.fmccoy.info"
+		}
+	],
+	"require": {
+		"buzzfishmedia/tacklebox-framework": "dev-master"
+	}
+}
