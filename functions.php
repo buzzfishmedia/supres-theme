@@ -10,14 +10,14 @@ $global_scripts = array(
 	array(
 		'name' => 'owlcarousel-script',
 		'type' => 'script',
-		'location' => get_stylesheet_directory_uri() . '/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js',
+		'location' => get_stylesheet_directory_uri() . '/assets/vendor/owlcarousel/owl.carousel.min.js',
 		'method' => 'enqueue',
 		'dependencies' => array('jquery')
 	),
 	array(
 		'name' => 'owlcarousel-style',
 		'type' => 'style',
-		'location' => get_stylesheet_directory_uri() . '/bower_components/owlcarousel/owl-carousel/owl.carousel.css',
+		'location' => get_stylesheet_directory_uri() . '/assets/vendor/owlcarousel/owl.carousel.css',
 		'method' => 'enqueue'
 	),
 	array(

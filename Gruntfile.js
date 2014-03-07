@@ -27,6 +27,11 @@ module.exports = function(grunt) {
 				files: {
 					'scss/': 'grout/scss/'
 				}
+			},
+			owlc: {
+				files: {
+					'assets/vendor/owlcarousel/': 'owlcarousel/owl-carousel/'
+				}
 			}
 		}
 
