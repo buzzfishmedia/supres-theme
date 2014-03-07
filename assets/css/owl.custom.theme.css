@@ -1,0 +1,41 @@
+#occontent-box.hide {
+  height: 0px;
+  overflow: hidden;
+}
+#occontent-box.show {
+  -webkit-transition: height 300ms ease;
+  transition: height 300ms ease;
+  height: 350px;
+}
+#occontent-box .owl-item {
+  height: 350px;
+}
+#occontent-box > div > div > div {
+  height: 100%;
+}
+#occontent-box > div > div > div:nth-child(1) {
+  background: yellow;
+}
+#occontent-box > div > div > div:nth-child(2) {
+  background: orange;
+}
+#occontent-box > div > div > div:nth-child(3) {
+  background: green;
+}
+
+#ocpaging-nav {
+  width: 100%;
+}
+#ocpaging-nav .owl-wrapper {
+  width: 100% !important;
+}
+#ocpaging-nav .owl-item {
+  float: none;
+  display: table-cell;
+  width: 1% !important;
+}
+#ocpaging-nav .owl-item span {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
